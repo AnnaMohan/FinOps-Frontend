@@ -1,0 +1,10 @@
+.filters-item {
+  padding: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 40px;
+}
+.filters-active {
+  background-color: rgb(0, 153, 255);
+  color: white;
+}

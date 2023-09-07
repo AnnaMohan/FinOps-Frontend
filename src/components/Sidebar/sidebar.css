@@ -1,0 +1,17 @@
+.sidebar-cursor-pointer {
+  cursor: pointer;
+}
+.sidebar-vh-85 {
+  height: 100vh;
+}
+
+.sidebar-item {
+  padding: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+.sidebar-active {
+  background-color: rgb(0, 153, 255);
+  border-left: 5px solid black;
+  color: white;
+}

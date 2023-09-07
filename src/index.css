@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto";
+}
+a {
+  text-decoration: none !important;
+}
+
+.color-red {
+  color: red;
+}
+.color-green {
+  color: green;
+}
+.color-gray {
+  color: rgb(167, 165, 165);
+}
+.color-black {
+  color: black;
+}
+.dot-red {
+}
+.dot-red::before {
+  content: "  ";
+  height: 10px;
+  width: 10px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot-green {
+}
+.dot-green::before {
+  content: "  ";
+  height: 10px;
+  width: 10px;
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.header-height {
+  height: 60px;
+}
